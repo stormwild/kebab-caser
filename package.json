@@ -2,9 +2,9 @@
   "name": "@stormwild/kebab-caser",
   "version": "1.0.0-alpha",
   "description": "Converts a sentence string into kebab case",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -14,10 +14,13 @@
     "kebab-case",
     "converter"
   ],
-  "author": "Alexander R. Torrijos",
+  "author": "Alexander R. Torrijos <artorrijos@gmail.com> (https://stormwild.github.io)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/stormwild/kebab-caser/issues"
   },
-  "homepage": "https://github.com/stormwild/kebab-caser#readme"
+  "homepage": "https://github.com/stormwild/kebab-caser#readme",
+  "devDependencies": {
+    "jest": "^27.2.5"
+  }
 }
